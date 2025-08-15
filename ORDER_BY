@@ -1,0 +1,5 @@
+SELECT 
+*
+FROM  customer
+WHERE  order_price > 350
+ORDER BY order_price
