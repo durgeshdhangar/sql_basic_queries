@@ -1,0 +1,5 @@
+SELECT 
+delevrys_tatus ,
+ COUNT (C_id)
+FROM  customer
+GROUP BY delevrys_tatus
