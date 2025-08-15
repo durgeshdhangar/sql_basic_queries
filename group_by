@@ -3,3 +3,11 @@ delevrys_tatus ,
  COUNT (C_id)
 FROM  customer
 GROUP BY delevrys_tatus
+
+--2ND
+
+SELECT 
+COUNT(order_price),
+delevrys_tatus
+FROM customer 
+GROUP BY delevrys_tatus
