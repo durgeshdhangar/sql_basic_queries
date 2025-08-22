@@ -1,5 +1,0 @@
-SELECT 
-COUNT(order_price) AS TOTAL,
-delevrys_tatus
-FROM customer 
-GROUP BY delevrys_tatus
